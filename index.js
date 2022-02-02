@@ -65,7 +65,7 @@ function nextSequence(){
 }
 
 function playAudio(color){
-     let relPath = '/' + color +".mp3";
+     let relPath = color +".mp3";
      let audio = new Audio(relPath);
      audio.play();
 
